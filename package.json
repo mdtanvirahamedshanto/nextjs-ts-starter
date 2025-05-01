@@ -1,0 +1,66 @@
+{
+  "name": "nextjs-ts-starter",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Md Tanvir Ahamed Shanto",
+    "email": "mdtanvirahamedshanto@gmail.com"
+  },
+  "license": "MIT",
+  "description": "A Next.js starter template with TypeScript, Tailwind CSS, and Prisma.",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "prisma",
+    "starter"
+  ],
+  "homepage": "https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdtanvirahamedshanto/nextjs-ts-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdtanvirahamedshanto/nextjs-ts-starter/issues"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.7.4",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/types": "^19.5.0",
+    "@prisma/client": "^6.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "conventional-changelog-atom": "^5.0.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "lucide-react": "^0.454.0",
+    "mongodb": "^6.12.0",
+    "next": "15.1.7",
+    "next-auth": "^4.24.11",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.1",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prisma": "^6.1.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
