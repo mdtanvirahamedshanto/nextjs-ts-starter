@@ -32,7 +32,7 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
-    "@auth/prisma-adapter": "^2.7.4",
+    "@auth/prisma-adapter": "^2.9.0",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
