@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js TypeScript Starter
 
-## Getting Started
+A modern, minimal, and highly customizable starter template for building high-performance web applications using **Next.js 15**, **TypeScript**, **Prisma**, and **Tailwind CSS**.
 
-First, run the development server:
+## ✨ Features
+
+- ✅ Next.js 15 with App Router
+- ✅ TypeScript for type safety
+- ✅ Tailwind CSS for rapid UI development
+- ✅ Full Prisma Setup
+- ✅ ESLint & Prettier for code formatting and linting
+- ✅ Absolute imports (e.g., `@/components/`)
+- ✅ SEO-friendly structure
+- ✅ Ready-to-deploy setup
+
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
 
 ```bash
+git clone https://github.com/mdtanvirahamedshanto/nextjs-ts-starter.git
+cd nextjs-ts-starter
+2. Install dependencies
+npm install
+3. Run the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Open http://localhost:3000 to see your app.
+
+✅ Scripts
+Command	Description
+dev	Run development server
+build	Create production build
+start	Start production server
+lint	Lint code with ESLint
+format	Format code with Prettier
+
 ```
+🧰 Tech Stack
+Next.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Prisma
 
-## Learn More
+ESLint
 
-To learn more about Next.js, take a look at the following resources:
+Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Deploy
+Easily deploy to Vercel by connecting your repo — zero config needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📄 License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+Made with ❤️ by Md Tanvir Ahamed Shanto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
