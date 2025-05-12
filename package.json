@@ -34,7 +34,7 @@
   "dependencies": {
     "@auth/prisma-adapter": "^2.9.0",
     "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/config-conventional": "^19.8.1",
     "@commitlint/types": "^19.5.0",
     "@prisma/client": "^6.1.0",
     "class-variance-authority": "^0.7.0",
